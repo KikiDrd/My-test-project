@@ -1,0 +1,284 @@
+{
+    "project_cz_dev": {
+        "e2e": {
+            "baseUrl": "devUrlProject"
+        },
+        "env": {
+            "develop": true,
+            "stage": false,
+            "genderLabel1": "Muž",
+            "genderLabel2": "Žena",
+            "searchString": "Tričko",
+            "mail": {
+                "subjectForgottenPassword": "Obnovte si heslo ke svému účtu",
+                "subjectActivation": "Aktivujte si svůj účet",
+                "userRegitrationAlreadyExistsAndVerified": "Vypadá to, že už se známe!",
+                "userRegitrationAlreadyExistsButNotVerified": "Zbývá ještě poslední krok"
+            },
+            "url": {
+                "menu": {
+                    "withSubCategory": {
+                        "categoryWomen": "/zeny",
+                        "categoryMen": "/muzi",
+                        "categoryTeen": "/teen",
+                        "categoryGirls": "/divky",
+                        "categoryBoys": "/chlapci",
+                        "categoryBabies": "/miminka",
+                        "categoryNews": "/novinky123",
+                        "categoryDenim": "/denim",
+                        "categoryLogo": "/logo",
+                        "categoryCollection": "/limitky",
+                        "categorySale": "/vyprodej"
+                    },
+                    "withoutSubCategory": {
+                        "categoryBestseller": "/bestsellery",
+                        "categoryAccessories": "/doplnky",
+                        "categoryVoucher": "/darkove-poukazy-cz"
+                    }
+                },
+                "cart": {
+                    "contentStep": "/kosik/obsah",
+                    "contactStep": "/kosik/kontaktni-udaje",
+                    "deliveryStep": "/kosik/doprava",
+                    "paymentStep": "/kosik/platba",
+                    "summary": "/kosik/shrnuti"
+                },
+                "help": {
+                    "faq": "/faq",
+                    "termsAndConditions": "/obchodni-podminky",
+                    "protectionOfPersonalData": "/zasady-zpracovani-osobnich-udaju-csag",
+                    "reclamation": "/reklamacni-rad",
+                    "returningGoods": "/vraceni-zbozi",
+                    "shippingAndPayment": "/doprava-a-platba"
+                },
+                "userRegistration": "**/uzivatel/registrace*",
+                "userRegistrationStepTwo": "**/uzivatel/registrace-krok-2*",
+                "registrationDone": "/uzivatel/registrace-dokonceno",
+                "userLogin": "**/uzivatel/prihlaseni*",
+                "userAccountOverview": "**/muj-ucet-prehled*",
+                "changePassword": "**/uzivatel/zmena-hesla*",
+                "myOrder": "**/uzivatel/moje-objednavky*",
+                "forgottenPassword": "**/uzivatel/zapomenute-heslo*",
+                "contactForm": "/kontakt",
+                "appPage": "/mobilni-aplikace-gap-plus",
+                "ourStores": "/nase-prodejny"
+            },
+            "cart": {
+                "address": {
+                    "postalCode": "10400",
+                    "city": "Praha",
+                    "phoneNumber": "+420 123456789"
+                },
+                "shipmentOption": {
+                    "pplPickup": 116,
+                    "ppl": 4,
+                    "packeta": 86,
+                    "gls": 99,
+                    "storePickup": 133
+                },
+                "paymentOption": {
+                    "paymentOnDelivery": 22,
+                    "cardPaymentOnline": 15,
+                    "applePay": 67,
+                    "googlePay": 60,
+                    "paymentOnPickupPlace": 21,
+                    "bankTransferGoPay": 16
+                },
+                "saleCode": {
+                    "absolute": "absoluteCode",
+                    "absoluteExpired": "absoluteExpiredCode",
+                    "percentage": "percentageCode",
+                    "voucher": "hodnota2"
+                }
+            }
+        }
+    },
+    "project_cz_stage": {
+        "e2e": {
+            "baseUrl": "stageUrlProject"
+        },
+        "env": {
+            "develop": false,
+            "stage": true,
+            "genderLabel1": "Muž",
+            "genderLabel2": "Žena",
+            "searchString": "Tričko",
+            "mail": {
+                "subjectForgottenPassword": "Obnovte si heslo ke svému účtu",
+                "subjectActivation": "Aktivujte si svůj účet",
+                "userRegitrationAlreadyExistsAndVerified": "Vypadá to, že už se známe!",
+                "userRegitrationAlreadyExistsButNotVerified": "Zbývá ještě poslední krok"
+            },
+            "url": {
+                "menu": {
+                    "withSubCategory": {
+                        "categoryWomen": "/zeny",
+                        "categoryMen": "/muzi",
+                        "categoryTeen": "/teen",
+                        "categoryGirls": "/divky",
+                        "categoryBoys": "/chlapci",
+                        "categoryBabies": "/miminka",
+                        "categoryNews": "/novinky123",
+                        "categoryDenim": "/denim",
+                        "categoryLogo": "/logo",
+                        "categoryCollection": "/limitky",
+                        "categorySale": "/vyprodej"
+                    },
+                    "withoutSubCategory": {
+                        "categoryBestseller": "/bestsellery",
+                        "categoryAccessories": "/doplnky",
+                        "categoryVoucher": "/darkove-poukazy-cz"
+                    }
+                },
+                "cart": {
+                    "contentStep": "/kosik/obsah",
+                    "contactStep": "/kosik/kontaktni-udaje",
+                    "deliveryStep": "/kosik/doprava",
+                    "paymentStep": "/kosik/platba",
+                    "summary": "/kosik/shrnuti"
+                },
+                "help": {
+                    "faq": "/faq",
+                    "termsAndConditions": "/obchodni-podminky",
+                    "protectionOfPersonalData": "/zasady-zpracovani-osobnich-udaju-csag",
+                    "reclamation": "/reklamacni-rad",
+                    "returningGoods": "/vraceni-zbozi",
+                    "shippingAndPayment": "/doprava-a-platba"
+                },
+                "userRegistration": "**/uzivatel/registrace*",
+                "userRegistrationStepTwo": "**/uzivatel/registrace-krok-2*",
+                "registrationDone": "/uzivatel/registrace-dokonceno",
+                "userLogin": "**/uzivatel/prihlaseni*",
+                "userAccountOverview": "**/muj-ucet-prehled*",
+                "changePassword": "**/uzivatel/zmena-hesla*",
+                "myOrder": "**/uzivatel/moje-objednavky*",
+                "forgottenPassword": "**/uzivatel/zapomenute-heslo*",
+                "contactForm": "/kontakt",
+                "appPage": "/mobilni-aplikace-gap-plus",
+                "ourStores": "/nase-prodejny"
+            },
+            "cart": {
+                "address": {
+                    "postalCode": "10400",
+                    "city": "Praha",
+                    "phoneNumber": "+420 123456789"
+                },
+                "shipmentOption": {
+                    "pplPickup": 116,
+                    "ppl": 4,
+                    "packeta": 86,
+                    "gls": 99,
+                    "storePickup": 133
+                },
+                "paymentOption": {
+                    "paymentOnDelivery": 22,
+                    "cardPaymentOnline": 15,
+                    "applePay": 67,
+                    "googlePay": 60,
+                    "paymentOnPickupPlace": 21,
+                    "bankTransferGoPay": 16
+                },
+                "saleCode": {
+                    "absolute": "absoluteCode",
+                    "absoluteExpired": "absoluteExpiredCode",
+                    "percentage": "percentageCode",
+                    "voucher": "hodnota2"
+                }
+            }
+        }
+    },
+    "project_cz_prod": {
+        "e2e": {
+            "baseUrl": "productionUrlProject"
+        },
+        "env": {
+            "develop": false,
+            "stage": false,
+            "genderLabel1": "Muž",
+            "genderLabel2": "Žena",
+            "searchString": "Tričko",
+            "mail": {
+                "subjectForgottenPassword": "Obnovte si heslo ke svému účtu",
+                "subjectActivation": "Aktivujte si svůj účet",
+                "userRegitrationAlreadyExistsAndVerified": "Vypadá to, že už se známe!",
+                "userRegitrationAlreadyExistsButNotVerified": "Zbývá ještě poslední krok"
+            },
+            "url": {
+                "menu": {
+                    "withSubCategory": {
+                        "categoryWomen": "/zeny",
+                        "categoryMen": "/muzi",
+                        "categoryTeen": "/teen",
+                        "categoryGirls": "/divky",
+                        "categoryBoys": "/chlapci",
+                        "categoryBabies": "/miminka",
+                        "categoryNews": "/novinky123",
+                        "categoryDenim": "/denim",
+                        "categoryLogo": "/logo",
+                        "categoryCollection": "/limitky",
+                        "categorySale": "/vyprodej"
+                    },
+                    "withoutSubCategory": {
+                        "categoryBestseller": "/bestsellery",
+                        "categoryAccessories": "/doplnky",
+                        "categoryVoucher": "/darkove-poukazy-cz"
+                    }
+                },
+                "cart": {
+                    "contentStep": "/kosik/obsah",
+                    "contactStep": "/kosik/kontaktni-udaje",
+                    "deliveryStep": "/kosik/doprava",
+                    "paymentStep": "/kosik/platba",
+                    "summary": "/kosik/shrnuti"
+                },
+                "help": {
+                    "faq": "/faq",
+                    "termsAndConditions": "/obchodni-podminky",
+                    "protectionOfPersonalData": "/zasady-zpracovani-osobnich-udaju-csag",
+                    "reclamation": "/reklamacni-rad",
+                    "returningGoods": "/vraceni-zbozi",
+                    "shippingAndPayment": "/doprava-a-platba"
+                },
+                "userRegistration": "**/uzivatel/registrace*",
+                "userRegistrationStepTwo": "**/uzivatel/registrace-krok-2*",
+                "registrationDone": "/uzivatel/registrace-dokonceno",
+                "userLogin": "**/uzivatel/prihlaseni*",
+                "userAccountOverview": "**/muj-ucet-prehled*",
+                "changePassword": "**/uzivatel/zmena-hesla*",
+                "myOrder": "**/uzivatel/moje-objednavky*",
+                "forgottenPassword": "**/uzivatel/zapomenute-heslo*",
+                "contactForm": "/kontakt",
+                "appPage": "/mobilni-aplikace-gap-plus",
+                "ourStores": "/nase-prodejny"
+            },
+            "cart": {
+                "address": {
+                    "postalCode": "10400",
+                    "city": "Praha",
+                    "phoneNumber": "+420 123456789"
+                },
+                "shipmentOption": {
+                    "pplPickup": 116,
+                    "ppl": 4,
+                    "packeta": 86,
+                    "gls": 99,
+                    "storePickup": 133
+                },
+                "paymentOption": {
+                    "paymentOnDelivery": 22,
+                    "cardPaymentOnline": 15,
+                    "applePay": 67,
+                    "googlePay": 60,
+                    "paymentOnPickupPlace": 21,
+                    "bankTransferGoPay": 16
+                },
+                "saleCode": {
+                    "absolute": "absoluteCode",
+                    "absoluteExpired": "absoluteExpiredCode",
+                    "percentage": "percentageCode",
+                    "voucher": "hodnota2"
+                }
+            }
+        }
+    }
+}
